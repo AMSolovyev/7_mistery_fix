@@ -1,23 +1,13 @@
-# Решатель квадратных уравнений
+<h1> Quadratic Equations  </h1>
+<h2> Find roots with numbers a, b, c. You can use a descriminate. </h2>
 
-[TODO. Здесь будет описание проекта]
 
-# Как использовать
+<h1> Project Goals </h1>
+<h2> You have to check your module with script test.py.</h2>
+<h2>  You input numbers for a, b, c at finally you can check:
+if descriminate>0, 
+elif descriminate = 0, 
+else descriminate = 0 </h2>
 
-[TODO. Здесь будет описание программного интерфейса: функции, их аргументы, формат ответа. Нужен пример кода демонстрирующий импорт модуля и использование функции.]
-
-# Как запустить
-
-Скрипт требует для своей работы установленного интерпретатора Python версии 3.5
-
-Запуск на Linux:
-
-```bash
-python tests.py # может понадобиться вызов python3 вместо python, зависит от настроек операционной системы
-```
-
-Запуск на Windows происходит аналогично.
-
-# Цели проекта
-
-Код создан в учебных целях. В рамках учебного курса по веб-разработке ― [DEVMAN.org](https://devman.org)
+<h1>The code is written for educational purposes. Training course for web-developers - DEVMAN.org</h1>
+ 
