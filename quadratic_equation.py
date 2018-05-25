@@ -8,7 +8,7 @@ def get_roots(a, b, c):
         root2 = (-b + sqrt(discriminant)) / (2 * a)
         return root1, root2
     elif discriminant == 0:
-        root1 = -b  / (2 * a)
+        root1 = -b / 2 * a
         return root1, None
     else:
         return None, None
