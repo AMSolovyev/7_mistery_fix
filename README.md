@@ -1,8 +1,10 @@
 <h1> Quadratic Equations  </h1>
 
 <pre> Find roots with numbers a, b, c. You can use a descriminate. </pre> 
-<pre> The script tests.py checks work quadratic_equation.py.
-You can use in the script tests.py module quadratic_equation.py like this:
+
+<pre> The script tests.py checks work quadratic_equation.py.</pre>
+<pre> You can use in the script tests.py module quadratic_equation.py like this:
+
 from quadratic_equation import get_roots     </pre>
 
 <h1> Project Goals </h1>
