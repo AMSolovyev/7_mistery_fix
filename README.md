@@ -1,18 +1,34 @@
 <h1> Quadratic Equations  </h1>
 
-<pre> Find roots with numbers a, b, c. You can use a descriminate. 
-      The script tests.py checks work quadratic_equation.py.
-      You can use in the script tests.py module quadratic_equation.py like this: </pre>
+<pre> The script tests.py tests the method python get_root() which solves 
+    quadratic equation.</pre>
 
-<div>from quadratic_equation import get_roots </div>   
+<h1> How to use</h1>
 
-<h1> Project Goals </h1>
+<pre>There is some methods of check in tests.py:</pre>
+    <li> def test_solves_real_roots(self) </li>
+<pre> There check roots if descriminate = 0: </pre> 
+    <li> def test_first_root_less_than_second(self)</li>
+<pre> There chek roots if descriminate > 0: </pre>
+    <li> def test_second_root_is_none_if_one_solution(self)</li>
+<pre> There check root if descriminate = 0 the other root is None: </pre>
+     <li>def test_returns_none_for_complex_solution(self)</li>
+<pre> There check no roots if descriminate < 0: </pre>
+     <li>def test_returns_none_for_complex_solution</li>
 
-<pre> You have to check your module with script tests.py. The script tests.py  checks the quadratic equation task solution on the different conditions.</pre>
 
- <h1> How to use in linux:</h1>
+<pre> You run a quadratic equation solution like this:</pre>
+    <li>from quadratic_equation.py import get_roots
+    root1, root2 = get_roots(a, b, c)
+    where a, b, c - numbers</li>
 
+<h1> Running the tests </h1> 
+
+<pre>You can run the scrip to use on Linux python or python3 like this:</pre>
 <div> python3 tests.py </div> 
+<pre> On Windows you use similarly.</pre>
+
+
 
 <h1> Project Goals</h1>
 
