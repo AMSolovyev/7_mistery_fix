@@ -34,12 +34,13 @@ where a, b, c - numbers
 # Running the tests
 
 You can run the scrip to use on Linux python or python3 like this:
-```python3 tests.py``` 
+
+``` python3 tests.py ``` 
+
 On Windows you use similarly.
 
 
-
-#Project Goals
+# Project Goals
 
 The code is written for educational purposes. Training course for web-developers -
 [DEVMAN.org](https://devman.org))
